@@ -17,6 +17,8 @@
   border: 3px solid #fff;
   border-radius: 10px;
   transform: skewX(-14deg);
+  transition: transform .1s, 
+    background-color .6s;
 }
 .container .heroes .hero:hover{
   background-color: #ff9c00;
